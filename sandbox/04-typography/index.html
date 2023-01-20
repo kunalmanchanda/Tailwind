@@ -5,27 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    'sans': ['ui-sans-serif', 'system-ui'],
+                    'serif': ['ui-serif', 'Georgia'],
+                    'mono': ['ui-monospace', 'SFMono-Regular'],
+                    'display': ['Oswald'],
+                    'body': ['"Open Sans"'],
+                }
+            }
+        }
+    </script>
     <title>Typography</title>
   </head>
   <body>
     <!-- Font Family -->
-
+    <div class='font-sans m-1 p-2'>Tailwind 2nd day</div>
+    <div class='font-serif m-1 p-2'>Tailwind 2nd day</div>
+    <div class='font-mono m-1 p-2'>Tailwind 2nd day</div> 
+     
     <!-- Font Size -->
+    <div class='text-xs pt-2'>tailwind 2nd day</div>
+    <div class='text-sm pt-2'>tailwind 2nd day</div>
+    <div class='text-base pt-2'>tailwind 2nd day</div>
+    <div class='text-md pt-2'>tailwind 2nd day</div>
+    <div class='text-lg pt-2'>tailwind 2nd day</div>
+    <div class='text-xl pt-2'>tailwind 2nd day</div>
+    <div class='text-2xl pt-2'>tailwind 2nd day</div>
 
     <!-- Font Weight -->
+    <div class='font-serif font-light m-1 p-2'>Tailwind 2nd day</div>
+    <div class='font-serif font-normal m-1 p-2 text-blue-800'>Tailwind 2nd day</div>
+    <div class='font-serif font-medium m-1 p-2'>Tailwind 2nd day</div> 
+    <div class='font-serif font-semibold m-1 p-2'>Tailwind 2nd day</div>
+    <div class='font-serif font-bold m-1 p-2'>Tailwind 2nd day</div>
 
     <!-- Letter Spacing -->
+    <div class='tracking-tighter mt-1'>Tailwind 2nd day</div>
+    <div class='tracking-tight mt-1'>Tailwind 2nd day</div>
+    <div class='tracking-normal mt-1'>Tailwind 2nd day</div> 
+    <div class='tracking-wide mt-1'>Tailwind 2nd day</div>
+    <div class='tracking-wider mt-1'>Tailwind 2nd day</div>
+    <div class='tracking-widest mt-1'>Tailwind 2nd day</div>
+
 
     <!-- Text Alignment -->
+    <div class='text-left m-1'>Tailwind 2nd day</div>
+    <div class='text-center m-1'>Tailwind 2nd day</div>
+    <div class='text-right m-1'>Tailwind 2nd day</div>      
+
 
     <!-- Text Decoration -->
+    <div class='underline decoration-4 decoration-blue-400 ml-24'>Tailwind 2nd Day</div>
+
 
     <!-- Decoration Style -->
+    <div class='underline decoration-double m-4 decoration-green-800'>Tailwind is awesome</div>
+
 
     <!-- Decoration Offset -->
+    <div class='underline decoration-dotted m-4 decoration-red-800'>Tailwind is awesome</div>
+    <div class='underline decoration-dashed m-4 decoration-blue-400 underline-offset-4'>Tailwind is awesome</div>
+    <div class='underline decoration-wavy m-4 decoration-pink-800 underline-offset-4'>Tailwind is awesome</div>
 
+    
     <!-- Text Transform -->
-  </body>
+    <div class='normal-case'>Tailwind is awesome</div>
+    <div class='lowercase'>Tailwind is awesome</div>
+    <div class='uppercase'>Tailwind is awesome</div>
+    <div class='capitalize'>Tailwind is awesome</div>  
+    
+
+    </body>
 </html>
 
 <!-- Font Family
